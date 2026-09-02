@@ -58,14 +58,14 @@ Abra no **Expo Go** e confirme que o app template carrega.
 
 Abra o projeto no VS Code e, no próprio README desta prática (ou em um arquivo `ESTRUTURA.md` na pasta do app), escreva **em uma frase** o papel de cada item abaixo (use a Aula 02 como referência):
 
-* [ ] `package.json`
-* [ ] `package-lock.json`
-* [ ] `App.js` / `App.tsx` (ou pasta `app/`, se o template usar)
-* [ ] `app.json`
-* [ ] `assets/`
-* [ ] `node_modules/`
-* [ ] `.gitignore`
-* [ ] `.expo/` (se aparecer após rodar o Expo)
+* [ ] `package.json (define versões de aceitáveis de dependência do projeto)`
+* [ ] `package-lock.json (torna explícita toda a árevore de depeências exatas do projeto)`
+* [ ] `App.js` / `App.tsx (responsável por chamar os componentes)` (ou pasta `app/`, se o template usar)
+* [ ] `app.json (define metadados do projeto expo)`
+* [ ] `assets/ (mídias)`
+* [ ] `node_modules/ (módulos e dependências do node.js)`
+* [ ] `.gitignore (arquivo responsável por definir quais arquivos e extensões não serão versionadas)`
+* [ ] `.expo/ (arquivos de configurações do projeto expo)` (se aparecer após rodar o Expo)
 
 > Dica: se tiver dúvida, busque na documentação Expo/React Native — o exercício da aula de slides pedia exatamente isso: pesquisar a função de cada arquivo gerado.
 
