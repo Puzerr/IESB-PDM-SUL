@@ -1,0 +1,26 @@
+export const Colors = {
+  light: {
+    background: "#F4F6F8",
+    cardBackground: "#FFFFFF",
+    textPrimary: "#1A1D1E",
+    textSecondary: "#6C757D",
+    primary: "#3B82F6",
+    danger: "#EF4444",
+    border: "#E5E7EB",
+    inputBackground: "#FFFFFF",
+    badgeBackground: "#EFF6FF",
+    badgeText: "#1D4ED8",
+  },
+  dark: {
+    background: "#121212",
+    cardBackground: "#1E1E1E",
+    textPrimary: "#F3F4F6",
+    textSecondary: "#9CA3AF",
+    primary: "#60A5FA",
+    danger: "#F87171",
+    border: "#374151",
+    inputBackground: "#2D3748",
+    badgeBackground: "#1E293B",
+    badgeText: "#93C5FD",
+  },
+};
